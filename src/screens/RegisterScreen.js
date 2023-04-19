@@ -1,5 +1,7 @@
 import React, { useState } from "react"
-import { StyleSheet, Text, TextInput, View} from "react-native"
+import { StyleSheet, Text, View} from "react-native"
+
+import TextInput from '../components/TextInput';
 import Button from '../components/Button';
 
 const RegisterScreen = () => {
@@ -63,7 +65,7 @@ const RegisterScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#8978d6",
     alignItems: "center",
     justifyContent: "center",
     padding: 20
